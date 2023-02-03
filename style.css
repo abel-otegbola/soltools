@@ -70,7 +70,10 @@ header {
     background: url("./assets/imgs/bg.webp") hsl(237, 94.9%, 7.6%) ;
     background-size: cover;
     background-blend-mode: color-dodge;
-    padding: 5% 0;
+    padding: 10% 5% 0 5% ;
+}
+header .socials {
+    margin-top: 20%;
 }
 section {
     padding: 40px 5%;
