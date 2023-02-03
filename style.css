@@ -13,10 +13,15 @@ a.btn.btn-primary {
     border: none;
     padding: 12px 30px;
     border-radius: 3px;
+    width: 150px;
 }
 button.btn.btn-primary:hover,
-a.btn.btn-primary:hover {
+a.btn.btn-primary:hover,
+a.btn-primary.locker {
     background: rgb(2, 2, 191);
+}
+a.btn-primary.locker {
+    border: 1px solid #0583f2;
 }
 button.btn.btn-secondary,
 a.btn.btn-secondary {
@@ -25,11 +30,21 @@ a.btn.btn-secondary {
     color: #fff;
     padding: 12px 30px;
     border-radius: 3px;
+    width: 150px;
 }
 button.btn.btn-secondary:hover,
 a.btn.btn-secondary:hover {
     background: rgb(2, 2, 191);
     color: #Fff;
+}
+.hero-action {
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .hero-action a.btn {
+        width: 100%;
+        margin: 7px 0;
+    }
 }
 nav .navbar-brand {
     padding-left: 5%;
