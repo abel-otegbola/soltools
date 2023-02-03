@@ -159,10 +159,10 @@ section#Services {
 .roadmap .roadmap-top .phase.phase2 {
     position: absolute;
     top: 120%;
-    left: 10%;
+    left: 15%;
 }
 .roadmap .roadmap-top .phase.phase3 {
-    left: 2%;
+    left: 6%;
 }
 .roadmap .roadmap-top .phase.phase4 {
     position: absolute;
@@ -170,7 +170,7 @@ section#Services {
     left: 60%;
 }
 .roadmap .roadmap-top .phase.phase5 {
-    left: 17%;
+    left: 20%;
 }
 .roadmap h4 {
     font-size: 16px;
