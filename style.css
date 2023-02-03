@@ -10,7 +10,7 @@ nav {
 button.btn.btn-primary,
 a.btn.btn-primary {
     background: linear-gradient(90deg, rgb(2, 2, 191), #0583f2);
-    border: none;
+    border: 1px solid #0583f2;
     padding: 12px 30px;
     border-radius: 3px;
     width: 150px;
@@ -117,9 +117,8 @@ section#Services {
     content: "";
     height: 10px;
     width: 10px;
-    background-color: #Fff;
+    background: linear-gradient(90deg, #03549a, rgb(247, 71, 71), rgb(224, 224, 2),rgb(62, 252, 62), rgb(54, 54, 247));
     border-radius: 30px;
-    border: 2px solid #0583f2;
     width: 100%;
     position: relative;
 }
@@ -128,24 +127,32 @@ section#Services {
     content: "";
     background-color: #fff;
     border: 2px solid #0583f2;
-    width: 20px;
-    height: 20px;
+    padding: 2px 10px;
+    color: #0583f2;
     border-radius: 30px;
-    top: -7.5px;
+    top: -12px;
     left: -2.5px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.573);
 }
 .roadmap-middle span:nth-child(2) {
     left: 25%;
+    border-color: rgb(247, 71, 71);
+    color: rgb(247, 71, 71);
 }
 .roadmap-middle span:nth-child(3) {
     left: 50%;
+    border-color: rgb(224, 224, 2);
+    color: rgb(168, 168, 3);
 }
 .roadmap-middle span:nth-child(4) {
     left: 75%;
+    border-color: rgb(62, 252, 62);
+    color: rgb(62, 252, 62);
 }
 .roadmap-middle span:nth-child(5) {
     left: 98%;
+    border-color: rgb(54, 54, 247);
+    color: rgb(54, 54, 247);
 }
 .roadmap .roadmap-top {
     position: relative;
@@ -155,22 +162,29 @@ section#Services {
     width: fit-content;
     position: relative;
     left: -15%;
+    background-color: #0583f217;
+    border-radius: 15px;
+    border: 2px solid #0583f2;
 }
 .roadmap .roadmap-top .phase.phase2 {
     position: absolute;
     top: 110%;
     left: 15%;
+    border: 2px solid rgb(247, 71, 71);
 }
 .roadmap .roadmap-top .phase.phase3 {
     left: 6%;
+    border: 2px solid rgb(168, 168, 3);
 }
 .roadmap .roadmap-top .phase.phase4 {
     position: absolute;
     top: 110%;
     left: 60%;
+    border: 2px solid rgb(62, 252, 62);
 }
 .roadmap .roadmap-top .phase.phase5 {
     left: 20%;
+    border: 2px solid rgb(54, 54, 247);
 }
 .roadmap h4 {
     font-size: 16px;
