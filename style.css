@@ -21,8 +21,8 @@ a.btn.btn-primary:hover {
 button.btn.btn-secondary,
 a.btn.btn-secondary {
     background: transparent;
-    border: 1px solid #0583f2;
-    color: #0583f2;
+    border: 1px solid #fff;
+    color: #fff;
     padding: 12px 30px;
     border-radius: 3px;
 }
