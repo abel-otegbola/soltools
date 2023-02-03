@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(1, 2, 20) !important;
+    color: rgb(238, 238, 238) !important;
+    width: 100%;
+}
+nav {
+    background-color: hsl(237, 94.9%, 7.6%);
+    color: rgb(239, 239, 239);
+}
+button.btn.btn-primary,
+a.btn.btn-primary {
+    background: linear-gradient(90deg, rgb(2, 2, 191), #0583f2);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 3px;
+}
+button.btn.btn-primary:hover,
+a.btn.btn-primary:hover {
+    background: rgb(2, 2, 191);
+}
+button.btn.btn-secondary,
+a.btn.btn-secondary {
+    background: transparent;
+    border: 1px solid #0583f2;
+    color: #0583f2;
+    padding: 12px 30px;
+    border-radius: 3px;
+}
+button.btn.btn-secondary:hover,
+a.btn.btn-secondary:hover {
+    background: rgb(2, 2, 191);
+    color: #Fff;
+}
+nav .navbar-brand {
+    padding-left: 5%;
+}
+nav .navbar-collapse {
+    padding-right: 5%;
+}
+nav .navbar-brand,
+nav .nav-item .nav-link {
+    color: rgb(217, 217, 217);
+}
+nav .nav-item .nav-link.active,
+nav .nav-item .nav-link:hover {
+    color: #0583f2;
+}
+nav .navbar-toggler span {
+    color: #fff;
+}
+header {
+    height: 100vh;
+    display: flex;
+    color:rgb(238, 238, 238);
+    background: url("./assets/imgs/bg.webp") hsl(237, 94.9%, 7.6%) ;
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    padding: 5% 0;
+}
+section {
+    padding: 5%;
+}
+.about-list {
+    background-color: hsl(237, 94.9%, 7.6%);
+    border: 1px solid #0583f2;
+}
+section#Services {
+    background-color: hsl(237, 94.9%, 7.6%);
+}
+.services {
+    width: 76%;
+    margin: auto;
+}
+.services h4 {
+    font-size: 16px;
+    color: #0583f2;
+}
+.services ol {
+    margin: 0;
+    padding: 0;
+}
+.services li {
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 14px;
+}
+@media (max-width: 900px) {
+    .services {
+        width: 100%;
+    }
+}
+footer {
+    padding: 0 5%;
+    background: url("./assets/imgs/bg.webp") hsl(237, 94.9%, 7.6%);
+    background-blend-mode: color-dodge;
+    background-size: cover;
+}
+footer li {
+    list-style-type: none;
+}
+footer li a {
+    text-decoration: none;
+    color: inherit;
+}
+footer .footer-bottom {
+    border-top: 1px solid rgb(217, 217, 217);
+}
