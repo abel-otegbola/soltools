@@ -179,10 +179,10 @@ section#Services {
 }
 .roadmap ul {
     margin: 0;
+    margin-left: 20px;
     padding: 0;
 }
 .roadmap li {
-    list-style-type: none;
     line-height: 30px;
 }
 @media (max-width: 1000px) {
