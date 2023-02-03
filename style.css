@@ -88,6 +88,9 @@ section#Services {
     .services {
         width: 100%;
     }
+    .services .services-img {
+        order: 2;
+    }
 }
 footer {
     padding: 0 5%;
