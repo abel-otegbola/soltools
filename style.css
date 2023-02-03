@@ -107,6 +107,106 @@ section#Services {
         order: 2;
     }
 }
+
+.roadmap {
+    width: 75%;
+    padding: 30px;
+    margin: 0 auto 25% auto;
+}
+.roadmap-middle {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #Fff;
+    border-radius: 30px;
+    border: 2px solid #0583f2;
+    width: 100%;
+    position: relative;
+}
+.roadmap-middle span {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    border: 2px solid #0583f2;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    top: -7.5px;
+    left: -2.5px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.573);
+}
+.roadmap-middle span:nth-child(2) {
+    left: 25%;
+}
+.roadmap-middle span:nth-child(3) {
+    left: 50%;
+}
+.roadmap-middle span:nth-child(4) {
+    left: 75%;
+}
+.roadmap-middle span:nth-child(5) {
+    left: 98%;
+}
+.roadmap .roadmap-top {
+    position: relative;
+    display: flex;
+}
+.roadmap .roadmap-top .phase{
+    width: fit-content;
+    position: relative;
+    left: -15%;
+}
+.roadmap .roadmap-top .phase.phase2 {
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}
+.roadmap .roadmap-top .phase.phase3 {
+    left: 2%;
+}
+.roadmap .roadmap-top .phase.phase4 {
+    position: absolute;
+    top: 120%;
+    left: 60%;
+}
+.roadmap .roadmap-top .phase.phase5 {
+    left: 17%;
+}
+.roadmap h4 {
+    font-size: 16px;
+    color: #0583f2;
+    padding: 0;
+}
+.roadmap ul {
+    margin: 0;
+    padding: 0;
+}
+.roadmap li {
+    list-style-type: none;
+    line-height: 30px;
+}
+@media (max-width: 1000px) {
+    .roadmap {
+        width: 90%;
+    }
+    .roadmap .roadmap-top {
+        display: block;
+        order: 2;
+    }
+    .roadmap-middle {
+        display: none;
+    }
+    .roadmap .roadmap-top .phase,
+    .roadmap .roadmap-top .phase.phase2,
+    .roadmap .roadmap-top .phase.phase4 {
+        position: static;
+        padding-inline: 30px;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
 footer {
     padding: 0 5%;
     background: url("./assets/imgs/bg.webp") hsl(237, 94.9%, 7.6%);
